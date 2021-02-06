@@ -104,7 +104,7 @@ body {
   }
   .main__secondSection {
     margin: 230px 0 0 3.5rem;
-    height: 40%;
+    height: 45%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -133,15 +133,16 @@ body {
     font-size: 40px;
   }
   .main .main__paragraph {
-    margin-top: 2rem;
+    margin: 0;
     font-size: 18px;
   }
   .main .main__btn {
     margin: 0;
+    margin-bottom: 45px;
     font-size: 18px;
     width: 40%;
-    height: 50px;
-    border-radius: 25px;
+    height: 55px;
+    border-radius: 30px;
   }
   .main .main__footer {
     margin: 0;
