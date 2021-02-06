@@ -59,13 +59,14 @@ body
         border-radius: 20px;
         font-size: small;
         opacity: 90%;
-        box-shadow: 0px 1px 5px black;
+        box-shadow: 0px 1px 3px black;
     }
 
     #{&}__footer
     {
         text-align: center;
         margin-top: 4rem;
+        margin-bottom: 3rem;
 
         .fa-twitter
         {
