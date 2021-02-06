@@ -88,6 +88,15 @@ body {
   border-radius: 100%;
 }
 
+.main .main__footer .fab .fab:active {
+  color: #e882e8;
+  border: #e882e8 1px solid;
+}
+
+.main .main__footer .fab .fab:hover {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 1270px) {
   body {
     background-image: url("/images/bg-desktop.svg");
@@ -155,11 +164,24 @@ body {
     width: fit-content;
     text-align: center;
   }
+  .main .main__footer .fab:active {
+    color: #e882e8;
+    border: #e882e8 1px solid;
+  }
+  .main .main__footer .fab:hover {
+    cursor: pointer;
+  }
 }
 
 @media screen and (min-width: 421px) and (max-width: 1270px) {
   .main .main__btn {
     width: 30%;
+  }
+}
+
+@media (min-width: 1270px) and (max-height: 700px) {
+  .main .main__secondSection .main__btn {
+    margin: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */

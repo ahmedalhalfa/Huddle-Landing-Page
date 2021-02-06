@@ -81,8 +81,20 @@ body
             padding:.5rem;
             border: white 1px solid;
             border-radius: 100%;
+
+            .fab:active 
+            {
+                color:$primaryColorMagneta;
+                border: $primaryColorMagneta 1px solid;
+            }
+            
+            .fab:hover 
+            {
+                cursor: pointer;
+            }
+
         }
     }
 }
 
-@import 'responsive'
+@import 'responsive';
