@@ -76,6 +76,10 @@ body {
   margin-bottom: 3rem;
 }
 
+.main .main__footer .large {
+  display: none;
+}
+
 .main .main__footer .fa-twitter {
   margin: 0 1rem 0 1rem;
 }
@@ -88,12 +92,12 @@ body {
   border-radius: 100%;
 }
 
-.main .main__footer .fab .fab:active {
+.main .main__footer .fab:active {
   color: #e882e8;
   border: #e882e8 1px solid;
 }
 
-.main .main__footer .fab .fab:hover {
+.main .main__footer .fab:hover {
   cursor: pointer;
 }
 
@@ -164,12 +168,15 @@ body {
     width: fit-content;
     text-align: center;
   }
-  .main .main__footer .fab:active {
-    color: #e882e8;
-    border: #e882e8 1px solid;
+  .main .main__footer .small {
+    display: none;
   }
-  .main .main__footer .fab:hover {
-    cursor: pointer;
+  .main .main__footer .large {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding-top: .7rem;
+    text-align: center;
   }
 }
 

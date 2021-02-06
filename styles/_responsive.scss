@@ -43,7 +43,6 @@
         {
             margin: 0;
             font-size: 40px;
-            // margin-bottom: 20px;
         }
 
         #{&}__paragraph
@@ -65,22 +64,26 @@
 
         #{&}__footer
         {
+                .small
+                {
+                    display: none;
+                }
+
+                .large
+                {
+                    display: inline-block;
+                    width: 40px;
+                    height: 40px;
+                    padding-top:.7rem;
+                    text-align: center;
+                }
+
             margin: 0;
             position: absolute;
             bottom: 3rem;
             right: 71.15px;
             width: fit-content;
             text-align: center;
-            
-            .fab:active 
-            {
-                color:$primaryColorMagneta;
-                border: $primaryColorMagneta 1px solid;
-            }
-            .fab:hover 
-            {
-                cursor: pointer;
-            }
         }
     }
 }
@@ -110,4 +113,3 @@
     }
 }
 
-// button height problem
