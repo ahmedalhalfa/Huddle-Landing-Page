@@ -1,0 +1,83 @@
+@import 'config';
+
+body 
+{
+    overflow: auto;
+
+    background-color: $primaryColorViolet;
+    background-image: url("/images/bg-mobile.svg");
+    // background-position: 0% -30%;
+    background-repeat: no-repeat;
+
+    color: white;
+    font-family: $bodyFontFamily;
+}
+.main
+{
+    width:80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    #{&}__logo
+        {
+            width:40%;
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+        }
+
+    #{&}__img
+    {
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    #{&}__header
+    {
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+        font-family: $headingFontFamily;
+    }
+
+    #{&}__paragraph
+    {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    #{&}__btn
+    {
+        margin-bottom: 4rem;
+        background-color: white;
+        text-align: center;
+        color:$primaryColorViolet;
+        width: 70%;
+        height: 40px;
+        margin: 0 auto;
+        padding-top: .7rem;
+        border-radius: 20px;
+        font-size: small;
+        opacity: 90%;
+        box-shadow: 0px 1px 5px black;
+    }
+
+    #{&}__footer
+    {
+        text-align: center;
+        margin-top: 4rem;
+
+        .fa-twitter
+        {
+            margin:0 1rem 0 1rem;
+        }
+
+        .fab {
+            width: 34px;
+            height: 34px;
+            padding:.5rem;
+            border: white 1px solid;
+            border-radius: 100%;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+$primaryColorViolet: hsl(257, 40%, 49%);
+$primaryColorMagneta: hsl(300, 69%, 71%);
+
+$headingFontFamily: 'Poppins', sans-serif;
+$bodyFontFamily: 'Open Sans', sans-serif;
+
+
+@mixin media-lg {
+    @media screen and (max-width: 1440) {
+        @content;
+    }    
+}
