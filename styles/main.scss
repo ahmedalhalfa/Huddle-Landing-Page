@@ -51,13 +51,14 @@ body
 
     #{&}__btn
     {
-        margin-bottom: 4rem;
         background-color: white;
         color:$primaryColorViolet;
         width: 70%;
         height: 40px;
         margin: 0 auto;
-        padding-top: .7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-radius: 20px;
         font-size: small;
         opacity: 90%;

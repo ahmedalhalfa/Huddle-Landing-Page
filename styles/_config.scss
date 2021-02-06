@@ -21,7 +21,7 @@ $bodyFontFamily: 'Open Sans', sans-serif;
 }
 
 @mixin media-md {
-    @media screen and (min-width: 421px) and (max-width:1270) {
+    @media screen and (min-width: 421px) and (max-width:1270px) {
         @content;
     }    
 }
