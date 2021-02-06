@@ -134,11 +134,12 @@ body {
   }
   .main .main__paragraph {
     margin: 0;
+    margin-bottom: 20px;
     font-size: 18px;
   }
   .main .main__btn {
     margin: 0;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
     font-size: 18px;
     width: 40%;
     height: 55px;
